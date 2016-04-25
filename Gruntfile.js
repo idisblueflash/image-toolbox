@@ -33,12 +33,12 @@ module.exports = function(grunt){
       image_resize: {
         resize: {
           options: {
-            width: 100,
-            height: 100,
+            width: 800,
+            height: 800,
           },
-        },
-        src: './output/*.jpg',
-        dest: './cropped/'
+        src: 'output/*.jpg',
+        dest: 'cropped/'
+        }
       },
 
       watch: {
